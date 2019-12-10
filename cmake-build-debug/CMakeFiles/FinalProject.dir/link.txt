@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/FinalProject.dir/main.cpp.o CMakeFiles/FinalProject.dir/FinalProject/ImgProc/ppm.cpp.o CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Negative/ppm_negative.cpp.o CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Flip/ppm_flip.cpp.o CMakeFiles/FinalProject.dir/FinalProject/Tools/swap.cpp.o  -o FinalProject 

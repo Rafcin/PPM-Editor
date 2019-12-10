@@ -1,0 +1,3 @@
+/home/raf/CLionProjects/FinalProject/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/raf/CLionProjects/FinalProject/cmake-build-debug/CMakeFiles/FinalProject.dir
+/home/raf/CLionProjects/FinalProject/cmake-build-debug/CMakeFiles/edit_cache.dir
