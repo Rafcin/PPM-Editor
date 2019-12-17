@@ -96,18 +96,18 @@ CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Negative/ppm_negative.cpp.s: 
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Negative/ppm_negative.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raf/CLionProjects/FinalProject/FinalProject/ImgEditor/Negative/ppm_negative.cpp -o CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Negative/ppm_negative.cpp.s
 
-CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Flip/ppm_flip.cpp.o: CMakeFiles/FinalProject.dir/flags.make
-CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Flip/ppm_flip.cpp.o: ../FinalProject/ImgEditor/Flip/ppm_flip.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raf/CLionProjects/FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Flip/ppm_flip.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Flip/ppm_flip.cpp.o -c /home/raf/CLionProjects/FinalProject/FinalProject/ImgEditor/Flip/ppm_flip.cpp
+CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Mirror/ppm_ghost.cpp.o: CMakeFiles/FinalProject.dir/flags.make
+CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Mirror/ppm_ghost.cpp.o: ../FinalProject/ImgEditor/Mirror/ppm_ghost.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raf/CLionProjects/FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Mirror/ppm_ghost.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Mirror/ppm_ghost.cpp.o -c /home/raf/CLionProjects/FinalProject/FinalProject/ImgEditor/Mirror/ppm_ghost.cpp
 
-CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Flip/ppm_flip.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Flip/ppm_flip.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raf/CLionProjects/FinalProject/FinalProject/ImgEditor/Flip/ppm_flip.cpp > CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Flip/ppm_flip.cpp.i
+CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Mirror/ppm_ghost.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Mirror/ppm_ghost.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raf/CLionProjects/FinalProject/FinalProject/ImgEditor/Mirror/ppm_ghost.cpp > CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Mirror/ppm_ghost.cpp.i
 
-CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Flip/ppm_flip.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Flip/ppm_flip.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raf/CLionProjects/FinalProject/FinalProject/ImgEditor/Flip/ppm_flip.cpp -o CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Flip/ppm_flip.cpp.s
+CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Mirror/ppm_ghost.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Mirror/ppm_ghost.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raf/CLionProjects/FinalProject/FinalProject/ImgEditor/Mirror/ppm_ghost.cpp -o CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Mirror/ppm_ghost.cpp.s
 
 CMakeFiles/FinalProject.dir/FinalProject/Tools/swap.cpp.o: CMakeFiles/FinalProject.dir/flags.make
 CMakeFiles/FinalProject.dir/FinalProject/Tools/swap.cpp.o: ../FinalProject/Tools/swap.cpp
@@ -122,13 +122,27 @@ CMakeFiles/FinalProject.dir/FinalProject/Tools/swap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FinalProject.dir/FinalProject/Tools/swap.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raf/CLionProjects/FinalProject/FinalProject/Tools/swap.cpp -o CMakeFiles/FinalProject.dir/FinalProject/Tools/swap.cpp.s
 
+CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Mirror/Vertical/ppm_vertical.cpp.o: CMakeFiles/FinalProject.dir/flags.make
+CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Mirror/Vertical/ppm_vertical.cpp.o: ../FinalProject/ImgEditor/Mirror/Vertical/ppm_vertical.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raf/CLionProjects/FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Mirror/Vertical/ppm_vertical.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Mirror/Vertical/ppm_vertical.cpp.o -c /home/raf/CLionProjects/FinalProject/FinalProject/ImgEditor/Mirror/Vertical/ppm_vertical.cpp
+
+CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Mirror/Vertical/ppm_vertical.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Mirror/Vertical/ppm_vertical.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raf/CLionProjects/FinalProject/FinalProject/ImgEditor/Mirror/Vertical/ppm_vertical.cpp > CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Mirror/Vertical/ppm_vertical.cpp.i
+
+CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Mirror/Vertical/ppm_vertical.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Mirror/Vertical/ppm_vertical.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raf/CLionProjects/FinalProject/FinalProject/ImgEditor/Mirror/Vertical/ppm_vertical.cpp -o CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Mirror/Vertical/ppm_vertical.cpp.s
+
 # Object files for target FinalProject
 FinalProject_OBJECTS = \
 "CMakeFiles/FinalProject.dir/main.cpp.o" \
 "CMakeFiles/FinalProject.dir/FinalProject/ImgProc/ppm.cpp.o" \
 "CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Negative/ppm_negative.cpp.o" \
-"CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Flip/ppm_flip.cpp.o" \
-"CMakeFiles/FinalProject.dir/FinalProject/Tools/swap.cpp.o"
+"CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Mirror/ppm_ghost.cpp.o" \
+"CMakeFiles/FinalProject.dir/FinalProject/Tools/swap.cpp.o" \
+"CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Mirror/Vertical/ppm_vertical.cpp.o"
 
 # External object files for target FinalProject
 FinalProject_EXTERNAL_OBJECTS =
@@ -136,11 +150,12 @@ FinalProject_EXTERNAL_OBJECTS =
 FinalProject: CMakeFiles/FinalProject.dir/main.cpp.o
 FinalProject: CMakeFiles/FinalProject.dir/FinalProject/ImgProc/ppm.cpp.o
 FinalProject: CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Negative/ppm_negative.cpp.o
-FinalProject: CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Flip/ppm_flip.cpp.o
+FinalProject: CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Mirror/ppm_ghost.cpp.o
 FinalProject: CMakeFiles/FinalProject.dir/FinalProject/Tools/swap.cpp.o
+FinalProject: CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Mirror/Vertical/ppm_vertical.cpp.o
 FinalProject: CMakeFiles/FinalProject.dir/build.make
 FinalProject: CMakeFiles/FinalProject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/raf/CLionProjects/FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable FinalProject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/raf/CLionProjects/FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable FinalProject"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/FinalProject.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

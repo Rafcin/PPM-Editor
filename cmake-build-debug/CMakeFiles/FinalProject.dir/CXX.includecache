@@ -6,35 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/raf/CLionProjects/FinalProject/FinalProject/ImgEditor/Flip/ppm_flip.cpp
-ppm_flip.h
-/home/raf/CLionProjects/FinalProject/FinalProject/ImgEditor/Flip/ppm_flip.h
+/home/raf/CLionProjects/FinalProject/FinalProject/ImgEditor/Mirror/Vertical/ppm_vertical.cpp
+ppm_vertical.h
+/home/raf/CLionProjects/FinalProject/FinalProject/ImgEditor/Mirror/Vertical/ppm_vertical.h
 /home/raf/CLionProjects/FinalProject/FinalProject/Tools/swap.h
 -
 
-/home/raf/CLionProjects/FinalProject/FinalProject/ImgEditor/Flip/ppm_flip.h
-
-/home/raf/CLionProjects/FinalProject/FinalProject/ImgEditor/Negative/ppm_negative.h
-
-/home/raf/CLionProjects/FinalProject/FinalProject/ImgProc/ppm.h
-string
--
-fstream
--
-iostream
--
-sstream
--
+/home/raf/CLionProjects/FinalProject/FinalProject/ImgEditor/Mirror/Vertical/ppm_vertical.h
 
 /home/raf/CLionProjects/FinalProject/FinalProject/Tools/swap.h
-
-/home/raf/CLionProjects/FinalProject/main.cpp
-iostream
--
-FinalProject/ImgProc/ppm.h
-/home/raf/CLionProjects/FinalProject/FinalProject/ImgProc/ppm.h
-FinalProject/ImgEditor/Negative/ppm_negative.h
-/home/raf/CLionProjects/FinalProject/FinalProject/ImgEditor/Negative/ppm_negative.h
-FinalProject/ImgEditor/Flip/ppm_flip.h
-/home/raf/CLionProjects/FinalProject/FinalProject/ImgEditor/Flip/ppm_flip.h
 

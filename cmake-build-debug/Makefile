@@ -123,32 +123,59 @@ FinalProject/fast:
 	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/build
 .PHONY : FinalProject/fast
 
-FinalProject/ImgEditor/Flip/ppm_flip.o: FinalProject/ImgEditor/Flip/ppm_flip.cpp.o
+FinalProject/ImgEditor/Mirror/Vertical/ppm_vertical.o: FinalProject/ImgEditor/Mirror/Vertical/ppm_vertical.cpp.o
 
-.PHONY : FinalProject/ImgEditor/Flip/ppm_flip.o
+.PHONY : FinalProject/ImgEditor/Mirror/Vertical/ppm_vertical.o
 
 # target to build an object file
-FinalProject/ImgEditor/Flip/ppm_flip.cpp.o:
-	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Flip/ppm_flip.cpp.o
-.PHONY : FinalProject/ImgEditor/Flip/ppm_flip.cpp.o
+FinalProject/ImgEditor/Mirror/Vertical/ppm_vertical.cpp.o:
+	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Mirror/Vertical/ppm_vertical.cpp.o
+.PHONY : FinalProject/ImgEditor/Mirror/Vertical/ppm_vertical.cpp.o
 
-FinalProject/ImgEditor/Flip/ppm_flip.i: FinalProject/ImgEditor/Flip/ppm_flip.cpp.i
+FinalProject/ImgEditor/Mirror/Vertical/ppm_vertical.i: FinalProject/ImgEditor/Mirror/Vertical/ppm_vertical.cpp.i
 
-.PHONY : FinalProject/ImgEditor/Flip/ppm_flip.i
+.PHONY : FinalProject/ImgEditor/Mirror/Vertical/ppm_vertical.i
 
 # target to preprocess a source file
-FinalProject/ImgEditor/Flip/ppm_flip.cpp.i:
-	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Flip/ppm_flip.cpp.i
-.PHONY : FinalProject/ImgEditor/Flip/ppm_flip.cpp.i
+FinalProject/ImgEditor/Mirror/Vertical/ppm_vertical.cpp.i:
+	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Mirror/Vertical/ppm_vertical.cpp.i
+.PHONY : FinalProject/ImgEditor/Mirror/Vertical/ppm_vertical.cpp.i
 
-FinalProject/ImgEditor/Flip/ppm_flip.s: FinalProject/ImgEditor/Flip/ppm_flip.cpp.s
+FinalProject/ImgEditor/Mirror/Vertical/ppm_vertical.s: FinalProject/ImgEditor/Mirror/Vertical/ppm_vertical.cpp.s
 
-.PHONY : FinalProject/ImgEditor/Flip/ppm_flip.s
+.PHONY : FinalProject/ImgEditor/Mirror/Vertical/ppm_vertical.s
 
 # target to generate assembly for a file
-FinalProject/ImgEditor/Flip/ppm_flip.cpp.s:
-	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Flip/ppm_flip.cpp.s
-.PHONY : FinalProject/ImgEditor/Flip/ppm_flip.cpp.s
+FinalProject/ImgEditor/Mirror/Vertical/ppm_vertical.cpp.s:
+	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Mirror/Vertical/ppm_vertical.cpp.s
+.PHONY : FinalProject/ImgEditor/Mirror/Vertical/ppm_vertical.cpp.s
+
+FinalProject/ImgEditor/Mirror/ppm_ghost.o: FinalProject/ImgEditor/Mirror/ppm_ghost.cpp.o
+
+.PHONY : FinalProject/ImgEditor/Mirror/ppm_ghost.o
+
+# target to build an object file
+FinalProject/ImgEditor/Mirror/ppm_ghost.cpp.o:
+	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Mirror/ppm_ghost.cpp.o
+.PHONY : FinalProject/ImgEditor/Mirror/ppm_ghost.cpp.o
+
+FinalProject/ImgEditor/Mirror/ppm_ghost.i: FinalProject/ImgEditor/Mirror/ppm_ghost.cpp.i
+
+.PHONY : FinalProject/ImgEditor/Mirror/ppm_ghost.i
+
+# target to preprocess a source file
+FinalProject/ImgEditor/Mirror/ppm_ghost.cpp.i:
+	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Mirror/ppm_ghost.cpp.i
+.PHONY : FinalProject/ImgEditor/Mirror/ppm_ghost.cpp.i
+
+FinalProject/ImgEditor/Mirror/ppm_ghost.s: FinalProject/ImgEditor/Mirror/ppm_ghost.cpp.s
+
+.PHONY : FinalProject/ImgEditor/Mirror/ppm_ghost.s
+
+# target to generate assembly for a file
+FinalProject/ImgEditor/Mirror/ppm_ghost.cpp.s:
+	$(MAKE) -f CMakeFiles/FinalProject.dir/build.make CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Mirror/ppm_ghost.cpp.s
+.PHONY : FinalProject/ImgEditor/Mirror/ppm_ghost.cpp.s
 
 FinalProject/ImgEditor/Negative/ppm_negative.o: FinalProject/ImgEditor/Negative/ppm_negative.cpp.o
 
@@ -267,9 +294,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... FinalProject"
 	@echo "... edit_cache"
-	@echo "... FinalProject/ImgEditor/Flip/ppm_flip.o"
-	@echo "... FinalProject/ImgEditor/Flip/ppm_flip.i"
-	@echo "... FinalProject/ImgEditor/Flip/ppm_flip.s"
+	@echo "... FinalProject/ImgEditor/Mirror/Vertical/ppm_vertical.o"
+	@echo "... FinalProject/ImgEditor/Mirror/Vertical/ppm_vertical.i"
+	@echo "... FinalProject/ImgEditor/Mirror/Vertical/ppm_vertical.s"
+	@echo "... FinalProject/ImgEditor/Mirror/ppm_ghost.o"
+	@echo "... FinalProject/ImgEditor/Mirror/ppm_ghost.i"
+	@echo "... FinalProject/ImgEditor/Mirror/ppm_ghost.s"
 	@echo "... FinalProject/ImgEditor/Negative/ppm_negative.o"
 	@echo "... FinalProject/ImgEditor/Negative/ppm_negative.i"
 	@echo "... FinalProject/ImgEditor/Negative/ppm_negative.s"

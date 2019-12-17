@@ -1,7 +1,9 @@
 #include <iostream>
 #include "FinalProject/ImgProc/ppm.h"
 #include "FinalProject/ImgEditor/Negative/ppm_negative.h"
-#include "FinalProject/ImgEditor/Flip/ppm_ghost.h"
+#include "FinalProject/ImgEditor/Mirror/ppm_ghost.h"
+#include "FinalProject/ImgEditor/Mirror/Vertical/ppm_vertical.h"
+
 
 using namespace std;
 
@@ -17,7 +19,7 @@ int main() {
 
 
 
-    ppm.setData(ppm_flip(data,w,h),w,h);
+    ppm.setData(ppm_vertical(data,w,h),w,h);
     ppm.writePPM("/home/raf/CLionProjects/FinalProject/cs1a (copy).ppm");
     return 0;
 }

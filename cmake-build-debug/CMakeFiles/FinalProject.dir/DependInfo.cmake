@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/raf/CLionProjects/FinalProject/FinalProject/ImgEditor/Flip/ppm_flip.cpp" "/home/raf/CLionProjects/FinalProject/cmake-build-debug/CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Flip/ppm_flip.cpp.o"
+  "/home/raf/CLionProjects/FinalProject/FinalProject/ImgEditor/Mirror/Vertical/ppm_vertical.cpp" "/home/raf/CLionProjects/FinalProject/cmake-build-debug/CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Mirror/Vertical/ppm_vertical.cpp.o"
+  "/home/raf/CLionProjects/FinalProject/FinalProject/ImgEditor/Mirror/ppm_ghost.cpp" "/home/raf/CLionProjects/FinalProject/cmake-build-debug/CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Mirror/ppm_ghost.cpp.o"
   "/home/raf/CLionProjects/FinalProject/FinalProject/ImgEditor/Negative/ppm_negative.cpp" "/home/raf/CLionProjects/FinalProject/cmake-build-debug/CMakeFiles/FinalProject.dir/FinalProject/ImgEditor/Negative/ppm_negative.cpp.o"
   "/home/raf/CLionProjects/FinalProject/FinalProject/ImgProc/ppm.cpp" "/home/raf/CLionProjects/FinalProject/cmake-build-debug/CMakeFiles/FinalProject.dir/FinalProject/ImgProc/ppm.cpp.o"
   "/home/raf/CLionProjects/FinalProject/FinalProject/Tools/swap.cpp" "/home/raf/CLionProjects/FinalProject/cmake-build-debug/CMakeFiles/FinalProject.dir/FinalProject/Tools/swap.cpp.o"
